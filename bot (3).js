@@ -13,7 +13,7 @@ client.on('ready', function(){
             j = -1;
         }
         i = i+j;
-        client.user.setGame(setGame[],`http://www.twitch.tv/iXMiDo`);
+        client.user.setGame(setGame[ % | FlutsMC],`http://www.twitch.tv/iXMiDo`);
     }, ms);
   console.log('---------------');
   console.log('FlutsMC Is Online')
