@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' %help','GaMerZ Community','Have Fun !',' Iam Here For Games',' %help'];
+    var setGame = [' %help','FlutsMC Server','Have Fun !',' Iam Here For Games',' %help'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -13,10 +13,10 @@ client.on('ready', function(){
             j = -1;
         }
         i = i+j;
-        client.user.setGame(setGame[i],`http://www.twitch.tv/iXMiDo`);
+        client.user.setGame(setGame[],`http://www.twitch.tv/iXMiDo`);
     }, ms);
   console.log('---------------');
-  console.log('GaMerZ -Bot Is Online')
+  console.log('FlutsMC Is Online')
   console.log('---------------')
 });
 
@@ -1365,4 +1365,4 @@ client.on("message", (message) => {
 	
 	
 	
-client.login('tokeen');
+client.login('NTMxNDczMzMwMjM0OTgyNDAw.DxXmMw.TW0uTzPH4VNXy16vvWgStwIWJBw');
